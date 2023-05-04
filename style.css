@@ -6,16 +6,18 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 18px;
 	color: black;
-} 
+}
 
 .divprodutos {
    color: whitesmoke;
 	background-color: #fc1480;
-	display: inline-flex;
+	/* margin: 0 auto não funciona junto com inline-flex */
+	/* display: inline-flex; */
 	border-radius: 10px;
 	max-width: 900px;
 	padding: 15px 80px 15px 80px;
-	margin-left: 14%;
+	/* margin-left: 14%; */
+	margin: 0 auto;
 }
 
 .descricaoProdutos{
