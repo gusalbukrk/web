@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+	background-image: linear-gradient(to bottom, white 0%, #ab74c4 100%);
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	color: black;
+} 
+
+.divprodutos {
+   color: whitesmoke;
+	background-color: #fc1480;
+	display: inline-flex;
+	border-radius: 10px;
+	max-width: 900px;
+	padding: 15px 80px 15px 80px;
+	margin-left: 14%;
+}
+
+.descricaoProdutos{
+	align-content: center;
+	font-size: 25px;
+}
+
+#produtosDestaque {
+   font-family: 'VT323', monospace;
+   font-size: 35px;
+   color: whitesmoke;
+   letter-spacing: 3px;
+}
+
+#produtosGerais {
+   font-family: 'VT323', monospace;
+   font-size: 35px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.imagem {
+	padding: 20px;
+
+}

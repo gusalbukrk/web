@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pagamento</title>
+</head>
+<body bgcolor="#f6e9f2">
+     <div style= "background-color: #dca8cf; display: inline-flex; margin-left: 20%; margin-right: 20%; align-content: center;">
+      	<form>
+       	     <table>
+                <tr>
+                    <td align="center"> Informações de Pagamento </td>
+                </tr>
+                <tr>
+                	<td> <p> </td>
+                </tr>
+                <tr>
+                    <td align="center"> Selecione o método de pagamento </td>
+                </tr>
+                <tr>
+                	<td> <p> </td>
+                </tr>
+       	  	 	<tr>
+       	  	 	  	<td>
+       	  	 	  		<input type="radio" name="cartaoC" value="cartao"> Cartão de Crédito - Em até 3x sem juros<p>
+       	  	 	  	</td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td>Digite o número do cartão</td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td>
+       	  	 		  <input type="tel" name="cartao" id="cartao" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}">
+       	  	 		</td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td><small>Formato: **** **** **** ****</small></td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td>Digite o vencimento</td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td>
+       	  	 			<input type="tel" name="vencimento" id="vencimento" pattern="[0-9]{2}/[0-9]{4}">
+       	  	 		</td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td><small>Formato: **/****</small></td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td>Digite o nome do titular do cartão</td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td>
+       	  	 			<textarea name="nome" id="nome" rows="1"></textarea>
+       	  	 		</td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 	 	<td>
+       	  	 		<select id="formaspg" name="formasPG" required>
+	    				<option value="">Selecione a quantidade de parcelas</option>
+	    				<option value="1">1x sem juros</option>
+                    	<option value="2">2x sem juros</option>
+                    	<option value="3">3x sem juros</option>
+       	  	 	    </td>
+       	  	 	</tr>
+       	  	 	<tr>
+                	<td> <p> </td>
+                </tr>
+                <tr>
+       	  	 		<td>
+       	  	 			<input type="radio" name="boleto" value="boleto"> Boleto Bancário<p>
+       	  	 		</td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td> <small>Para pagamentos com boleto, será enviado em PDF no seu email, o pagamento deve ser realizado dentro de 3 dias úteis para confirmação da compra</small> </td>
+       	  	 	</tr>
+                <tr>
+                	<td> <p> </td>
+                </tr>
+                <tr>
+       	  	 		<td>
+       	  	 			<input type="radio" name="pix"> Pix - 15% de desconto <p>
+       	  	 		</td>
+       	  	 	</tr>
+       	  	 	<tr>
+       	  	 		<td>
+       	  	 			<small> O código pix será enviado em seu email, o pagamento deve ser realizado em até 15 minutos </small>
+       	  	 		</td>
+       	  	 	</tr>
+       	  	 	  	
+       	  	 </table>
+       	</form>
+     </div>
+</body>
+</html>
